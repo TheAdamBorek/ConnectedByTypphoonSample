@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "SomeObject.h"
 #import "TyphoonConfigPostProcessor.h"
+#import "StoryboardAssembly.h"
 #import "TyphoonDefinition+Infrastructure.h"
 
 
@@ -17,6 +18,7 @@
 - (AppDelegate *)appDelegate{
     return [TyphoonDefinition withClass:[AppDelegate class] configuration:^(TyphoonDefinition *definition) {
         [definition injectProperty:@selector(someObjectNeededForSomething) with:[self someObject]];
+        [definition injectProperty:@selector(storyboard) with:[self.storyboardAssembly mainStorybaord]];
     }];
 }
 

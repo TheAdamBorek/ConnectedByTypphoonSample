@@ -11,8 +11,9 @@
 
 - (UIStoryboard *)mainStorybaord {
   return [TyphoonDefinition withClass:[TyphoonStoryboard class] configuration:^(TyphoonDefinition *definition) {
-      [definition useInitializer:@selector(storyboardWithName:bundle:) parameters:^(TyphoonMethod *initializer) {
+      [definition useInitializer:@selector(storyboardWithName:factory:bundle:) parameters:^(TyphoonMethod *initializer) {
           [initializer injectParameterWith:@"Main"];
+          [initializer injectParameterWith:self];
           [initializer injectParameterWith:[NSBundle mainBundle]];
       }];
   }];

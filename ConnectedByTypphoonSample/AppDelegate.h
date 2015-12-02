@@ -15,4 +15,5 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) SomeObject *someObjectNeededForSomething;
 @property (nonatomic, strong) UIWindow *window;
+@property(nonatomic, strong) UIStoryboard *storyboard;
 @end

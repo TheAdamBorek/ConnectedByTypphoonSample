@@ -23,6 +23,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     NSLog(@"Hello! SomeObject is not empty! %@",self.someObjectNeededForSomething);
+    self.window.rootViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewController"];
     return YES;
 }
 

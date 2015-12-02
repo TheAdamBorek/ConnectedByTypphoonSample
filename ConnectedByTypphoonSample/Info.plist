@@ -30,6 +30,8 @@
     <key>TyphoonInitialAssemblies</key>
     <array>
         <string>ApplicationAssembly</string>
+        <string>StoryboardAssembly</string>
+        <string>LoginAssembly</string>
     </array>
 
     <key>LSRequiresIPhoneOS</key>

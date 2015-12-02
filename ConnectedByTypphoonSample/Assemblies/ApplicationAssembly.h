@@ -7,8 +7,10 @@
 #import "TyphoonAssembly.h"
 
 @protocol APIConnection;
-
+@class StoryboardAssembly;
 
 @interface ApplicationAssembly : TyphoonAssembly
+@property(nonatomic, strong) StoryboardAssembly *storyboardAssembly;
+
 - (id<APIConnection>)apiConnection;
 @end
