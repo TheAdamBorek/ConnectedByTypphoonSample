@@ -8,6 +8,8 @@
 #import "AFNetworkingAPIConnection.h"
 #import "AppDelegate.h"
 #import "SomeObject.h"
+#import "TyphoonConfigPostProcessor.h"
+#import "TyphoonDefinition+Infrastructure.h"
 
 
 @implementation ApplicationAssembly
@@ -24,9 +26,15 @@
 
 - (id <APIConnection>)apiConnection {
     return [TyphoonDefinition withClass:[AFNetworkingAPIConnection class] configuration:^(TyphoonDefinition *definition) {
-
+        [definition useInitializer:@selector(initWithBaseURL:) parameters:^(TyphoonMethod *initializer) {
+            [initializer injectParameterWith:TyphoonConfig(@"APIBaseURL")];
+        }];
     }];
 }
 
+- (id)configurer {
+    return [TyphoonDefinition
+            configDefinitionWithName:@"TyphoonConfiguration.plist"];
+}
 
 @end

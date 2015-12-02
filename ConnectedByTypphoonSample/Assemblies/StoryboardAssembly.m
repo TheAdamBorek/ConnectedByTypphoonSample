@@ -4,7 +4,18 @@
 //
 
 #import "StoryboardAssembly.h"
+#import "TyphoonStoryboard.h"
 
 
 @implementation StoryboardAssembly
+
+- (UIStoryboard *)mainStorybaord {
+  return [TyphoonDefinition withClass:[TyphoonStoryboard class] configuration:^(TyphoonDefinition *definition) {
+      [definition useInitializer:@selector(storyboardWithName:bundle:) parameters:^(TyphoonMethod *initializer) {
+          [initializer injectParameterWith:@"Main"];
+          [initializer injectParameterWith:[NSBundle mainBundle]];
+      }];
+  }];
+}
+
 @end

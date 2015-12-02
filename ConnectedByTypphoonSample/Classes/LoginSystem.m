@@ -4,9 +4,21 @@
 //
 
 #import "LoginSystem.h"
+#import "APIConnection.h"
 
 
-@implementation LoginSystem {
+@implementation LoginSystem
+- (instancetype)initWithApiConnection:(id <APIConnection>)apiConnection {
+    self = [super init];
+    if (self) {
+        self.apiConnection = apiConnection;
+    }
 
+    return self;
 }
+
++ (instancetype)systemWithApiConnection:(id <APIConnection>)apiConnection {
+    return [[self alloc] initWithApiConnection:apiConnection];
+}
+
 @end

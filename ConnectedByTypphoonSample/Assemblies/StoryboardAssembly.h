@@ -3,9 +3,10 @@
 // Copyright (c) 2015 Adam Borek. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "TyphoonAssembly.h"
 
 
 @interface StoryboardAssembly : TyphoonAssembly
+- (UIStoryboard *)mainStorybaord;
 @end

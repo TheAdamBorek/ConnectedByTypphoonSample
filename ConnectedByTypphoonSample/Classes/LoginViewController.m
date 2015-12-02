@@ -1,5 +1,5 @@
 //
-//  ViewController.m
+//  LoginViewController.m
 //  ConnectedByTypphoonSample
 //
 //  Created by Adam Borek on 30.11.2015.
@@ -7,14 +7,15 @@
 //
 
 
-#import "ViewController.h"
+#import "LoginViewController.h"
+#import "LoginSystem.h"
 
 
-@interface ViewController ()
+@interface LoginViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LoginViewController
 
 
 - (void)viewDidLoad {

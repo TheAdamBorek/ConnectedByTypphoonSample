@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		1F0FA043B91E129008C4FD27 /* ApplicationAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA8EEECCA5CC204E4B2BD /* ApplicationAssembly.m */; };
 		1F0FA1A98A8A2E50DE521A40 /* SomeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA1AD579D2A541D5BB25F /* SomeObject.m */; };
+		1F0FA267480AD401E7458FDB /* LoginAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA38630C897B8A4A3206C /* LoginAssembly.m */; };
 		1F0FA26C97E92989E408FEA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FAC9CBC8428AFE691768A /* LaunchScreen.storyboard */; };
+		1F0FA49A26D6CCB676D195AF /* TyphoonConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FA61527B14676EBB1829D /* TyphoonConfiguration.plist */; };
 		1F0FA566893D2DE314DDF1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FAB7D5C8A74D5FCD32A9C /* Main.storyboard */; };
 		1F0FA6E5BB33ECAEE7F3610E /* StoryboardAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA1E3790674913C33CE5D /* StoryboardAssembly.m */; };
+		1F0FA739FB529D801BF2E17B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA3B1A4C223E8B2A92D48 /* LoginViewController.m */; };
 		1F0FA774B534D4A929E650FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA833A0C80259B23A4DF8 /* AppDelegate.m */; };
-		1F0FA7F35AB4A6155A18AF90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA03DFB94DB2E32419DEE /* ViewController.m */; };
 		1F0FA9797AF0C627FA3F8ABB /* AFNetworkingAPIConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA4108560AF730E253F55 /* AFNetworkingAPIConnection.m */; };
 		1F0FAA17380B7059A0D75FC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0FA0575086EF8A30C04D89 /* main.m */; };
 		1F0FAB52C8855EAA849917FB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F0FA015C0A6E14FF1704ADB /* Info.plist */; };
@@ -27,15 +29,19 @@
 		131343C44C8D9A6CF940CFA5 /* Pods-ConnectedByTypphoonSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectedByTypphoonSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectedByTypphoonSample/Pods-ConnectedByTypphoonSample.release.xcconfig"; sourceTree = "<group>"; };
 		1F0FA01470139D8C92A328FD /* ConnectedByTypphoonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectedByTypphoonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0FA015C0A6E14FF1704ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		1F0FA03DFB94DB2E32419DEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1F0FA0575086EF8A30C04D89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F0FA1965590D63789889331 /* LoginAPIConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAPIConnector.h; sourceTree = "<group>"; };
 		1F0FA1AD579D2A541D5BB25F /* SomeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeObject.m; sourceTree = "<group>"; };
 		1F0FA1C178EB7726B8482F3E /* APIRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIRequest.h; sourceTree = "<group>"; };
 		1F0FA1E3790674913C33CE5D /* StoryboardAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardAssembly.m; sourceTree = "<group>"; };
+		1F0FA38630C897B8A4A3206C /* LoginAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAssembly.m; sourceTree = "<group>"; };
+		1F0FA39EC245C49E05863AF9 /* LoginAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAssembly.h; sourceTree = "<group>"; };
+		1F0FA3B1A4C223E8B2A92D48 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		1F0FA4108560AF730E253F55 /* AFNetworkingAPIConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingAPIConnection.m; sourceTree = "<group>"; };
 		1F0FA5FB6FE1A7056C562CDA /* AFNetworkingAPIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkingAPIConnection.h; sourceTree = "<group>"; };
+		1F0FA61527B14676EBB1829D /* TyphoonConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = TyphoonConfiguration.plist; sourceTree = "<group>"; };
 		1F0FA67DA9BB28EF1C0BAB63 /* LoginSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginSystem.m; sourceTree = "<group>"; };
+		1F0FA7D5DA2D92642DFFFC83 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1F0FA833A0C80259B23A4DF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1F0FA853897DE6D0420A72F1 /* StoryboardAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardAssembly.h; sourceTree = "<group>"; };
 		1F0FA8C52235DC514B880C72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,7 +49,6 @@
 		1F0FA94032981DAA4ABFC49D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F0FA98FADFC8E72969E5B0D /* LoginAPIConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAPIConnector.m; sourceTree = "<group>"; };
 		1F0FA9AEF877950039FF263D /* APIConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConnection.h; sourceTree = "<group>"; };
-		1F0FAA8CBDE3500437F83E18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1F0FABCA7E1B7C7AFAC6E28F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F0FACBF27A6DD089EA0C0CD /* SomeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeObject.h; sourceTree = "<group>"; };
 		1F0FACD5341D148049E7D564 /* LoginSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginSystem.h; sourceTree = "<group>"; };
@@ -80,6 +85,8 @@
 				1F0FAF4B5BF77011911C336A /* ApplicationAssembly.h */,
 				1F0FA1E3790674913C33CE5D /* StoryboardAssembly.m */,
 				1F0FA853897DE6D0420A72F1 /* StoryboardAssembly.h */,
+				1F0FA38630C897B8A4A3206C /* LoginAssembly.m */,
+				1F0FA39EC245C49E05863AF9 /* LoginAssembly.h */,
 			);
 			path = Assemblies;
 			sourceTree = "<group>";
@@ -94,8 +101,6 @@
 				1F0FA8C52235DC514B880C72 /* AppDelegate.h */,
 				1F0FA833A0C80259B23A4DF8 /* AppDelegate.m */,
 				1F0FAB7D5C8A74D5FCD32A9C /* Main.storyboard */,
-				1F0FAA8CBDE3500437F83E18 /* ViewController.h */,
-				1F0FA03DFB94DB2E32419DEE /* ViewController.m */,
 				1F0FA4A4B1A842FB77C3D93D /* Assemblies */,
 				1F0FAE51ED68FADC2C465375 /* Classes */,
 			);
@@ -141,6 +146,9 @@
 				1F0FA1C178EB7726B8482F3E /* APIRequest.h */,
 				1F0FA1AD579D2A541D5BB25F /* SomeObject.m */,
 				1F0FACBF27A6DD089EA0C0CD /* SomeObject.h */,
+				1F0FA3B1A4C223E8B2A92D48 /* LoginViewController.m */,
+				1F0FA7D5DA2D92642DFFFC83 /* LoginViewController.h */,
+				1F0FA61527B14676EBB1829D /* TyphoonConfiguration.plist */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -211,6 +219,7 @@
 				1F0FAFF706D94C5960E34BE7 /* Assets.xcassets in Resources */,
 				1F0FA26C97E92989E408FEA3 /* LaunchScreen.storyboard in Resources */,
 				1F0FA566893D2DE314DDF1C3 /* Main.storyboard in Resources */,
+				1F0FA49A26D6CCB676D195AF /* TyphoonConfiguration.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,13 +280,14 @@
 			files = (
 				1F0FAA17380B7059A0D75FC8 /* main.m in Sources */,
 				1F0FA774B534D4A929E650FE /* AppDelegate.m in Sources */,
-				1F0FA7F35AB4A6155A18AF90 /* ViewController.m in Sources */,
 				1F0FA043B91E129008C4FD27 /* ApplicationAssembly.m in Sources */,
 				1F0FA6E5BB33ECAEE7F3610E /* StoryboardAssembly.m in Sources */,
 				1F0FADD2E2FDF271FBA7CC89 /* LoginSystem.m in Sources */,
 				1F0FACD638A605EC3C071A86 /* LoginAPIConnector.m in Sources */,
 				1F0FA9797AF0C627FA3F8ABB /* AFNetworkingAPIConnection.m in Sources */,
 				1F0FA1A98A8A2E50DE521A40 /* SomeObject.m in Sources */,
+				1F0FA267480AD401E7458FDB /* LoginAssembly.m in Sources */,
+				1F0FA739FB529D801BF2E17B /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

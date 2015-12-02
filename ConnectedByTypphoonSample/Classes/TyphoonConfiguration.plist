@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   TyphoonConfiguration.plist
+   ConnectedByTypphoonSample
+
+   Created by Adam Borek on 02.12.2015.
+   Copyright (c) 2015 Adam Borek. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>APIBaseURL</key>
+        <string>NSURL(http://someurl.com)</string>
+    </dict>
+</plist>
